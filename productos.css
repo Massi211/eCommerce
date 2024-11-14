@@ -221,3 +221,15 @@ img {
   font-size: 12px;
   color: #999;
 }
+
+@media (max-width: 768px) {
+  .productos-contenedor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .productos-contenedor {
+    grid-template-columns: 1fr;
+  }
+}

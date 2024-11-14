@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="icon" href="imagenes/icono contacto.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="barranav">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="index.html">Productos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="contacto">
+      <form
+        action="https://formspree.io/f/xkgnobyj"
+        method="POST"
+        class="contacto-izquierda"
+      >
+        <div class="titulo">
+          <h2>Contactenos</h2>
+          <hr />
+        </div>
+        <input
+          type="text"
+          name="Nombres"
+          id="nombre"
+          placeholder="Tu nombre"
+          class="input-contacto"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="example@gmail.com"
+          class="input-contacto"
+        />
+        <textarea
+          name="mensaje"
+          id="mensaje"
+          placeholder="Tu mensaje"
+          class="input-contacto"
+          required
+        ></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="contacto-derecha">
+        <div class="mapa-container">
+          <h3 class="ubicacion">Nuestra Ubicacion</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3837498102143!2d-58.38403028801952!3d-34.61974147283568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb28578bb035%3A0x6c4718498787170d!2sLima%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1731538105050!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="redes-sociales">
+          <a href="https://www.facebook.com" class="icono"><img src="imagenes/facebook.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com" class="icono"><img src="imagenes/instagram.jpg" alt="Instagram"></a>
+          <a href="https://www.linkedin.com" class="icono"><img src="imagenes/linkedin.jpg" alt="LinkedIn"></a>
+        </div>   
+        <div class="footer-copyrigth">
+          &copy; 2024. Reservados todos los derechos
+          <br>
+        </div>
+      </footer>
+  </body>
+</html>

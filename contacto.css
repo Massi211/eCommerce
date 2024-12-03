@@ -176,11 +176,74 @@ footer .redes-sociales a:hover {
   color: #0c00bb;
 }
 
-@media (max-width: 800px) {
-  .input-contacto {
-    width: 80vw;
+@media (max-width: 768px) {
+  .contacto {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+    padding: 20px;
   }
-  .contacto-derecha {
-    display: none;
+
+  .contacto-izquierda, .contacto-derecha {
+    width: 90%;
+    text-align: center;
+  }
+
+  .input-contacto {
+    width: 100%;
+  }
+
+  .mapa-container iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .barranav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .barranav li a {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .titulo h2 {
+    font-size: 28px;
+  }
+
+  .contacto-izquierda button {
+    font-size: 16px;
+  }
+
+  .footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo h2 {
+    font-size: 24px;
+  }
+
+  .input-contacto {
+    height: 40px;
+    padding: 10px;
+  }
+
+  .contacto-izquierda textarea {
+    height: 100px;
+  }
+
+  .contacto-izquierda button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .mapa-container iframe {
+    height: 250px;
   }
 }

@@ -175,3 +175,55 @@ footer .redes-sociales a {
 footer .redes-sociales a:hover {
   color: #0c00bb;
 }
+
+@media (max-width: 768px) {
+  .barranav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .contacto {
+    padding: 120px 10px 20px;
+  }
+
+  .mapa-container iframe {
+    height: 300px;
+  }
+
+  .titulo h2 {
+    font-size: 28px;
+  }
+
+  .contacto-izquierda button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .barranav li a {
+    font-size: 16px;
+  }
+
+  .titulo h2 {
+    font-size: 24px;
+  }
+
+  .mapa-container iframe {
+    height: 250px;
+  }
+
+  .input-contacto {
+    height: 40px;
+    padding: 10px;
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  .contacto-izquierda button {
+    padding: 10px 15px;
+  }
+}

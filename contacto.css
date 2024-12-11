@@ -176,6 +176,21 @@ footer .redes-sociales a:hover {
   color: #0c00bb;
 }
 
+.errores {
+  background-color: #ffe4e4;
+  color: #d8000c;
+  border: 1px solid #d8000c;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.errores p {
+  margin: 0;
+}
+
+
 @media (max-width: 768px) { 
   .barranav { 
     flex-direction: column; 

@@ -1,3 +1,68 @@
 [
-    
+  {
+    "id": 1,
+    "nombre": "The Last Of Us Part I",
+    "precio": 55.99,
+    "imagen": "imagenes/tlou1.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Dead Space",
+    "precio": 25.00,
+    "imagen": "imagenes/dead space.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Dragon Ball Sparking! Zero",
+    "precio": 59.99,
+    "imagen": "imagenes/dragon ball.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "EA FC 25",
+    "precio": 63.99,
+    "imagen": "imagenes/fc25.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Ratcher",
+    "precio": 9.99,
+    "imagen": "imagenes/ratcher.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Grid Legends",
+    "precio": 17.99,
+    "imagen": "imagenes/grid.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Resident Evil Village",
+    "precio": 39.99,
+    "imagen": "imagenes/re8.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "The Medium",
+    "precio": 35.99,
+    "imagen": "imagenes/themedium.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Uncharted",
+    "precio": 69.99,
+    "imagen": "imagenes/uncharted.jpg_large"
+  },
+  {
+    "id": 10,
+    "nombre": "The last of us Part II",
+    "precio": 69.99,
+    "imagen": "imagenes/tlou2.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Forspoken",
+    "precio": 19.99,
+    "imagen": "imagenes/forspoken.jpg"
+  }
 ]

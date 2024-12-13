@@ -51,4 +51,17 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("carrito", JSON.stringify(carrito)); // Actualizo el carrito en el localStorage
     actualizarCarrito(); // Actualizo la lista del carrito
   });
+
+  const finalizarCompra = document.querySelector(".finalizar");
+  if (finalizarCompra) {
+    finalizarCompra.addEventListener("click", () => {
+      if (carrito.length === 0) {
+        alert(
+          "Tu carrito está vacío. Agrega productos antes de finalizar la compra."
+        );
+        return;
+      }
+      window.location.href = "compra.html";
+    });
+  }
 });

@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.compra {
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.compra h1 {
+  color: #2ecc71;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.compra p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555555;
+}
+
+.compra strong {
+  font-weight: bold;
+  color: black;
+}
+
+.boton {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #2980b9;
+}

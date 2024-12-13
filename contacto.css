@@ -222,7 +222,7 @@ footer .redes-sociales a:hover {
   }
 
   .mapa-container iframe {
-    height: 300px;
+    height: 250px;
   }
 }
 
@@ -242,5 +242,9 @@ footer .redes-sociales a:hover {
 
   .ubicacion {
     font-size: 20px;
+  }
+
+  .mapa-container iframe{
+    height: 200px;
   }
 }

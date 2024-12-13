@@ -9,14 +9,14 @@
     {
       "id": 2,
       "nombre": "Dead Space",
-      "precio": 25.0,
-      "imagen": "imagenes/dead space.jpg"
+      "precio": 25.99,
+      "imagen": "imagenes/dead_space.jpg"
     },
     {
       "id": 3,
       "nombre": "Dragon Ball Sparking! Zero",
       "precio": 59.99,
-      "imagen": "imagenes/dragon ball.jpg"
+      "imagen": "imagenes/dragon_ball.jpg"
     },
     {
       "id": 4,

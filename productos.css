@@ -189,9 +189,8 @@ img {
 }
 
 .producto-texto .precio {
-  color: #232323;
   font-size: 19px;
-  font-weight: 600;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -208,13 +207,13 @@ img {
   margin-bottom: 10px;
 }
 
-.redes-sociales .icono{
+.redes-sociales .icono {
   display: inline-block;
   margin: 0 10px;
   transition: transform 0.3s;
 }
 
-.redes-sociales .icono:hover{
+.redes-sociales .icono:hover {
   transform: scale(1.1);
 }
 

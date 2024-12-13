@@ -190,57 +190,57 @@ footer .redes-sociales a:hover {
   margin: 0;
 }
 
-.redes-sociales .icono{
+.redes-sociales .icono {
   display: inline-block;
   margin: 0 10px;
   transition: transform 0.3s;
 }
 
-.redes-sociales .icono:hover{
+.redes-sociales .icono:hover {
   transform: scale(1.1);
 }
 
-
-@media (max-width: 768px) { 
-  .barranav { 
-    flex-direction: column; 
-    align-items: center; 
+@media (max-width: 768px) {
+  .barranav {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .contacto { 
-    flex-direction: column; 
-    height: auto; 
-    padding: 20px; 
+  .contacto {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
   }
 
-  .contacto-izquierda, .contacto-derecha { 
-    width: 100%; 
+  .contacto-izquierda,
+  .contacto-derecha {
+    width: 100%;
   }
 
-  .input-contacto { 
-    width: 100%; 
+  .input-contacto {
+    width: 100%;
   }
 
-  .mapa-container iframe { 
-    height: 300px; 
-  } 
+  .mapa-container iframe {
+    height: 300px;
+  }
 }
 
-@media (max-width: 480px) { 
-  .titulo h2 { 
-    font-size: 30px; 
+@media (max-width: 480px) {
+  .titulo h2 {
+    font-size: 30px;
   }
 
-  .titulo hr { 
-    width: 80px; 
+  .titulo hr {
+    width: 80px;
     height: 3px;
   }
 
-  .barranav li a { 
-    font-size: 16px; 
+  .barranav li a {
+    font-size: 16px;
   }
 
-  .ubicacion { 
-    font-size: 20px; 
+  .ubicacion {
+    font-size: 20px;
   }
 }

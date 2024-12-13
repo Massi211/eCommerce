@@ -190,6 +190,16 @@ footer .redes-sociales a:hover {
   margin: 0;
 }
 
+.redes-sociales .icono{
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.redes-sociales .icono:hover{
+  transform: scale(1.1);
+}
+
 
 @media (max-width: 768px) { 
   .barranav { 

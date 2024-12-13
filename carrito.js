@@ -42,4 +42,4 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('carrito', JSON.stringify(carrito));  // Actualizo el carrito en el localStorage
       actualizarCarrito(); // Actualizo la lista del carrito
     });
-  });  
+  });

@@ -1,6 +1,49 @@
 body {
-  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: linear-gradient(135deg, #f0f0f3, #e4e4e7);
 }
+
+.header {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.menu .navbar ul li a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
 
 .carrito {
   background-color: #fff;

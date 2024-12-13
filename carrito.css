@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: linear-gradient(135deg, #f0f0f3, #e4e4e7);
 }
 
@@ -21,6 +21,7 @@ body {
   color: black;
   text-transform: uppercase;
   font-weight: 900;
+  text-decoration: none;
 }
 
 .navbar ul {
@@ -43,7 +44,6 @@ body {
   color: black;
   border-bottom: 2px solid black;
 }
-
 
 .carrito {
   background-color: #fff;
